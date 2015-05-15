@@ -18,13 +18,21 @@
 
 namespace OctoSample.PublicWeb.Controllers
 {
+    using System.Reflection;
     using System.Web.Http;
 
     public class HomeController : ApiController
     {
         public string Get()
         {
-            return "hello world";
+            return string.Concat("eine Änderung, hello SEE I'm running on Version: ", this.GetCurrentAssemblyVersion());
+        }
+
+        private string GetCurrentAssemblyVersion()
+        {
+            var assemblyVersion = Assembly.GetExecutingAssembly().GetName().Version;
+
+            return assemblyVersion.ToString();
         }
     }
 }
