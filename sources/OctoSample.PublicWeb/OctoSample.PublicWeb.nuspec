@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/appccelerate/development</projectUrl>
     <iconUrl>https://github.com/appccelerate/appccelerate/raw/master/docs/nuget.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Used for build infrastructure.</description>
+    <description>Web Api Sample</description>
     <copyright>Copyright 2012-2015</copyright>
     <tags>Appccelerate</tags>
 	<releaseNotes></releaseNotes>
