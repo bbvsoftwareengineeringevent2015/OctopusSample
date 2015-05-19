@@ -25,7 +25,7 @@ namespace OctoSample.PublicWeb.Controllers
     {
         public ActionResult Index()
         {
-            string message = string.Concat("something changed: ", this.GetCurrentAssemblyVersion());
+            string message = string.Concat("something changed: 2 ", this.GetCurrentAssemblyVersion());
 
             this.ViewBag.Message = message;
 
