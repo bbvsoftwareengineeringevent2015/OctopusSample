@@ -25,7 +25,7 @@ namespace OctoSample.PublicWeb.Controllers
     {
         public ActionResult Index()
         {
-            var message = string.Concat("version: ", this.GetCurrentAssemblyVersion());
+            var message = string.Concat("i'm running on version: ", this.GetCurrentAssemblyVersion());
 
             this.ViewBag.Message = message;
 
